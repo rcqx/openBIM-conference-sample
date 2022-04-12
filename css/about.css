@@ -1,0 +1,274 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: whitesmoke;
+}
+
+nav {
+  padding-top: 1em;
+  padding-left: 0.5em;
+}
+
+/* HERO SECTION-----------------------------------*/
+#main {
+  background-image: url(/static/mobile_bg.png);
+  background-size: cover;
+}
+
+.coco {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#heroDescription {
+  border: 1px solid #d3d3d3;
+  padding: 1.3em;
+  font-size: 0.8em;
+  color: #272a31;
+  background-color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+#contact {
+  font-size: small;
+  width: 80%;
+  text-align: center;
+  color: #272a31;
+  margin: 0%;
+}
+
+#email {
+  font-size: small;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+#email span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hero h1 {
+  font-size: 1.9em;
+  line-height: 1em;
+  color: #ec5242;
+  margin-bottom: 0.7em;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 1.4em;
+  margin-bottom: 0%;
+  padding-top: 1em;
+  color: #272a31;
+}
+
+.hero h4 {
+  font-size: 1.25em;
+  color: #ec5242;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+/* PROGRAM SECTION-------------------------------*/
+#about {
+  background-color: white;
+  color: #272a31;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about p {
+  font-size: small;
+  margin-bottom: 2.5em;
+}
+
+.break {
+  height: 2px;
+  width: 30px;
+  background-color: #ec5242;
+  margin-bottom: 1em;
+  margin-top: 0.2em;
+}
+
+#about h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+  margin: 0%;
+  line-height: 1.5em;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2em;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 2.5em;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.event h5 {
+  color: #ec5242;
+  font-weight: bold;
+  font-size: large;
+  min-width: 4em;
+  text-align: center;
+}
+
+.event p {
+  font-size: 0.8em;
+  font-weight: 700;
+  text-align: left;
+}
+
+#joinBtn {
+  width: 80%;
+  height: 4em;
+  border: none;
+  background-color: #ec5242;
+  color: white;
+  font-weight: 500;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+/* SPEAKER SECTION------------------------------------*/
+#past {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#past h2 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+  margin: 0%;
+}
+
+#london {
+  background-image: url(/static/london1.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 12em;
+  text-align: center;
+  margin-bottom: 1em;
+  color: white;
+  background-color: #ec5242;
+  width: 90%;
+}
+
+#london h4 {
+  padding-top: 2.5em;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 0.5em;
+}
+
+#mexicoCity {
+  background-image: url(/static/mexico1.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 12em;
+  text-align: center;
+  margin-bottom: 1em;
+  color: white;
+  background-color: #ec5242;
+  width: 90%;
+}
+
+#mexicoCity h4 {
+  padding-top: 2.5em;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 0.5em;
+}
+
+.break2 {
+  height: 2px;
+  width: 20px;
+  background-color: #d3d3d3;
+  margin-bottom: 0.7em;
+}
+
+#partners {
+  background-color: #272a31;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.sponsors {
+  display: flex;
+  gap: 2.5em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 7em;
+}
+
+.sponsors h5 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #d3d3d3;
+  margin: 0%;
+  opacity: 0.4;
+  line-height: 0%;
+}
+
+.break3 {
+  height: 2px;
+  width: 30px;
+  background-color: #ec5242;
+  margin-bottom: 1em;
+  margin-top: 0.2em;
+  margin-bottom: 1.5em;
+}
+
+footer {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+  background-color: white;
+}
+
+footer img {
+  width: 15%;
+}
+
+footer p {
+  margin: 0%;
+  font-size: smaller;
+  color: #272a31;
+  font-weight: 600;
+}
