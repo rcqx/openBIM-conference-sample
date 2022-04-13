@@ -8,7 +8,7 @@ nav {
   padding-left: 0.5em;
 }
 
-/* HERO SECTION-----------------------------------*/
+/* HERO SECTION----------------------------------- */
 #main {
   background-image: url(/static/mobile_bg.png);
   background-size: cover;
@@ -76,7 +76,7 @@ nav {
   text-align: center;
 }
 
-/* PROGRAM SECTION-------------------------------*/
+/* PROGRAM SECTION------------------------------- */
 #about {
   background-color: white;
   color: #272a31;
@@ -84,6 +84,19 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+footer p {
+  margin: 0%;
+  font-size: smaller;
+  color: #272a31;
+  font-weight: 600;
+}
+
+.event p {
+  font-size: 0.8em;
+  font-weight: 700;
+  text-align: left;
 }
 
 #about p {
@@ -123,6 +136,10 @@ nav {
   margin-bottom: 2.5em;
 }
 
+footer img {
+  width: 15%;
+}
+
 .logo img {
   width: 100%;
 }
@@ -133,12 +150,6 @@ nav {
   font-size: large;
   min-width: 4em;
   text-align: center;
-}
-
-.event p {
-  font-size: 0.8em;
-  font-weight: 700;
-  text-align: left;
 }
 
 #joinBtn {
@@ -152,7 +163,7 @@ nav {
   margin-bottom: 2.5em;
 }
 
-/* SPEAKER SECTION------------------------------------*/
+/* SPEAKER SECTION------------------------------------ */
 #past {
   display: flex;
   flex-direction: column;
@@ -248,7 +259,6 @@ nav {
   height: 2px;
   width: 30px;
   background-color: #ec5242;
-  margin-bottom: 1em;
   margin-top: 0.2em;
   margin-bottom: 1.5em;
 }
@@ -260,15 +270,4 @@ footer {
   justify-content: center;
   padding: 1.5em;
   background-color: white;
-}
-
-footer img {
-  width: 15%;
-}
-
-footer p {
-  margin: 0%;
-  font-size: smaller;
-  color: #272a31;
-  font-weight: 600;
 }
