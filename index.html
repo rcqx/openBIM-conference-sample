@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d2a3ee28df.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <title>openBIM Summit 2022</title>
+</head>
+
+<body>
+  <div id="navWrapper">
+    <nav class="topnav">
+      <div id="navLinksWrapper">
+        <img src="static/facebook.png" alt="facebook logo icon">
+        <img src="static/twitter.png" alt="twitter logo icon">
+        <a href="#spanish">Spanish</a>
+        <a href="#mypage">My Page</a>
+        <a href="#logout">Logout</a>
+      </div>
+    </nav>
+    <nav class="desktop-nav">
+      <div class="logo">
+        <img src="static/ifclogo.png" alt="facebook logo">
+        <h3>Open BIM Global <br> Summit 2022</h3>
+      </div>
+      <ul class="conta">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="https://www.buildingsmart.org/about/openbim/">Join</a></li>
+        <li><a href="#sponsors">Sponsor</a></li>
+        <li><a href="https://www.buildingsmart.org/resources/latest-news/">News</a></li>
+        <li><a id="aButton" href="https://www.buildingsmart.org/chapter-directory/">BIM Campaing</a></li>
+      </ul>
+    </nav>
+
+    <nav id="hiddenNav">
+      <ul>
+        <li><a href="about.html" onclick="redirect()">About</a></li>
+        <li><a href="#program" onclick="redirect()">Program</a></li>
+        <li><a href="https://www.buildingsmart.org/about/openbim/" onclick="redirect()">Join</a></li>
+        <li><a href="#sponsors" onclick="redirect()">Sponsor</a></li>
+        <li><a href="https://www.buildingsmart.org/resources/latest-news/" onclick="redirect()">News</a></li>
+      </ul>
+      <div id="closebtn"><img id="closebtn_img" src="static/icon-cancel.svg" alt="close button icon"></div>
+    </nav>
+  </div>
+  <section id="main" class="container">
+    <nav class="mobilnav container">
+      <i id="listIcon" class="fa-2x fa-solid fa-bars"></i>
+    </nav>
+
+    <div class="hero">
+      <h4 class="lato">"Open BIM tools for everyone!"</h4>
+      <h1 class="coco">OPEN BIM GLOBAL DEVELOPERS SUMMIT 2022</h1>
+      <P id="heroDescription">A joyful celebration believing in the value of open bim tools and shared workflows,
+        creating a
+        positive
+        change with people
+        from over 80 countries.</P>
+      <h2 class="coco">2022.12.02 (FRI) ~ 03 (SAT)</h2>
+      <p>@Camino Real Polanco Conference Center CDMX</p>
+    </div>
+  </section>
+  <section id="program" class="container-fluid">
+    <h2>Main Program</h2>
+    <div class="break"></div>
+    <div class="events">
+      <div class="event">
+        <img src="static/program1.png" alt="icon for Lectures">
+        <h5>Lecture</h5>
+        <p>Listen to the speakers from various contries about the messages of open BIM</p>
+      </div>
+      <div class="event">
+        <img src="static/program2.png" alt="icon for demonstration activities">
+        <h5>Demos</h5>
+        <p>Appreciate recent open BIM developments that enable the creation of open tools </p>
+      </div>
+      <div class="event">
+        <img src="static/program3.png" alt="icon for Forum related activities">
+        <h5>Forum</h5>
+        <p>Have the time to share your thoughts and opinions with open BIM and AECO experts</p>
+      </div>
+      <div class="event">
+        <img src="static/program4.png" alt="icon for networking">
+        <h5>Network</h5>
+        <p>Try creating your own open BIM tool using available resources such as IFCjs</p>
+      </div>
+      <div class="event">
+        <img src="static/program5.png" alt="icon related to the conference job fair">
+        <h5>Job fair</h5>
+        <p>Get to network and meet people from AECO indutry and look for job offers </p>
+      </div>
+    </div>
+    <a href="#program">SEE THE WHOLE PROGRAM</a>
+    <button id="joinBtn">Join Open BIM Global Summit 2022</button>
+  </section>
+  <section id="speakers" class="container">
+    <div id="avoidBreakWrap">
+      <h2>Feature Speakers</h2>
+      <div class="break"></div>
+    </div>
+    <button id="moreBtn" onclick="displayMore()">MORE</button>
+  </section>
+
+  <div id="sponsors" class="partners">
+    <h4>Partners</h4>
+    <div class="break3"></div>
+    <div class="sponsors">
+      <h5>IFCjs</h5>
+      <h5>UCL</h5>
+      <h5>UAM</h5>
+      <h5>Arup</h5>
+      <h5>BSmart</h5>
+    </div>
+  </div>
+  <footer>
+    <img src="static/ifclogo.png" alt="open BIM ifc logo">
+    <div id="footerText">
+      <p>2022, openBIM. <br> All rights reserved.</p>
+      <p class="desktop">2022, openBIM. All rights reserved.</p>
+      <p class="desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto quos repellendus rerum. Sunt
+        consequuntur
+        veritatis delectus maiores iusto debitis rem, saepe provident! Enim soluta earum aliquid, maxime laudantium quod
+        error!
+        Hic cum itaque quae ab voluptas fuga unde, ullam maiores at, dolorem inventore exercitationem iusto aperiam
+        corrupti, fugiat minima.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>

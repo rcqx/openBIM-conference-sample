@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d2a3ee28df.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/about.css">
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <title>About openBIM</title>
+</head>
+
+<body>
+  <div id="navWrapper">
+    <nav class="topnav">
+      <div id="navLinksWrapper">
+        <img src="static/facebook.png" alt="facebook logo icon">
+        <img src="static/twitter.png" alt="twitter logo icon">
+        <a href="#spanish">Spanish</a>
+        <a href="#mypage">My Page</a>
+        <a href="#logout">Logout</a>
+      </div>
+    </nav>
+    <nav class="desktop-nav">
+      <div class="logoAbout">
+        <img src="static/ifclogo.png" alt="open BIM ifc logo">
+        <h3>Open BIM Global <br> Summit 2022</h3>
+      </div>
+      <ul class="conta">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="index.html#program">Program</a></li>
+        <li><a href="https://www.buildingsmart.org/about/openbim/">Join</a></li>
+        <li><a href="index.html#sponsors">Sponsor</a></li>
+        <li><a href="https://www.buildingsmart.org/resources/latest-news/">News</a></li>
+        <li><a id="aButton" href="https://www.buildingsmart.org/chapter-directory/">BIM Campaing</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <nav id="hiddenNav">
+    <ul>
+      <li><a href="index.html" onclick="redirect()">Home</a></li>
+      <li><a href="about.html" onclick="redirect()">About</a></li>
+      <li><a href="#program" onclick="redirect()">Program</a></li>
+      <li><a href="https://www.buildingsmart.org/about/openbim/" onclick="redirect()">Join</a></li>
+      <li><a href="#sponsors" onclick="redirect()">Sponsor</a></li>
+      <li><a href="https://www.buildingsmart.org/resources/latest-news/" onclick="redirect()">News</a></li>
+    </ul>
+    <div id="closebtn"><img id="closebtn_img" src="static/icon-cancel.svg" alt="close button icon"></div>
+  </nav>
+
+  <section id="main" class="container">
+    <nav>
+      <i id="listIcon" class="fa-2x fa-solid fa-bars"></i>
+    </nav>
+    <div class="hero">
+      <h4 class="lato">"Open BIM tools for everyone!"</h4>
+      <h1 class="coco">OPEN BIM GLOBAL DEVELOPERS SUMMIT 2022</h1>
+      <div class="break"></div>
+      <p id="heroDescription">The Open BIM Global Summit brings togueter the community of experts,
+        researchers, and practitioners who comprise the Open BIM affiliate
+        network in a different country every two years. This year, we hope to
+        expand our invitation list including organizations and individuals interested in applying open BIM tools in
+        an effort to make BIM models more accessible to everyone and not dependant on authoring BIM tools.</p>
+      <p id="contact">Please contact us per Email for any further questions about Open BIM Global Summit 2022!</p>
+      <p id="email"><span>openBIM2022@openbim.org</span></p>
+    </div>
+  </section>
+  <section id="about" class="container-fluid">
+    <h2 id="mobil">Open BIM Global<br>Developers Summit Logo</h2>
+    <h2 id="desktop">Open BIM Global Developers Summit Logo</h2>
+    <div class="break"></div>
+    <p id="logoTextMobil">The logo of Open BIM Global Developers Summit 2022 was decided throught the Logo
+      competition from october 8th to november 8th.
+    </p>
+    <p id="logoTextDesktop">The logo of Open BIM Global Developers Summit 2022 was decided throught the Logo
+      competition from october 8th to november 8th. After online public voting and Selection Committee's judging
+      process,
+      the logo from Juan Perez won the prize. After consultation with Mr. Agrawal we optimized the prize-winning-logo
+      for
+      this year's summit as following.
+    </p>
+    <div class="logo">
+      <img src="static/openbim.jpg" alt="open BIM IFC logo">
+    </div>
+  </section>
+
+  <section id="past" class="container-fluid">
+    <h2>See the past open BIM Global Summits</h2>
+    <div class="break"></div>
+    <p>Take a look at the last two open BIM Global Summits which took place in
+      London and in Mexico City
+    </p>
+    <div id="flexDesktop" class="container">
+      <div id="london">
+        <h4>2018</h4>
+        <h6>openBIM conference in London</h6>
+      </div>
+      <div id="mexicoCity">
+        <h4>2020</h4>
+        <h6>openBIM conference in Mexico City</h6>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" class="container-fluid">
+    <h4>Partners</h4>
+    <div class="break3"></div>
+    <div class="sponsors">
+      <h5>IFCjs</h5>
+      <h5>UCL</h5>
+      <h5>UAM</h5>
+      <h5>Arup</h5>
+      <h5>BSmart</h5>
+    </div>
+  </section>
+  <footer>
+    <img src="static/ifclogo.png" alt="open BIM IFC logo">
+    <div id="footerText">
+      <p>2022, openBIM. <br> All rights reserved.</p>
+      <p class="desktop">2022, openBIM. All rights reserved.</p>
+      <p class="desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto quos repellendus rerum. Sunt
+        consequuntur
+        veritatis delectus maiores iusto debitis rem, saepe provident! Enim soluta earum aliquid, maxime laudantium quod
+        error!
+        Hic cum itaque quae ab voluptas fuga unde, ullam maiores at, dolorem inventore exercitationem iusto aperiam
+        corrupti, fugiat minima.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
