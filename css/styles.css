@@ -9,11 +9,6 @@ body {
 }
 
 /* HERO SECTION----------------------------------- */
-/* #main {
-  background-image: url(/static/mobile_bg.png);
-  background-size: cover;
-} */
-
 .coco {
   font-family: 'COCOGOOSE', sans-serif;
 }
@@ -32,6 +27,14 @@ body {
   line-height: 1.2em;
   color: #ec5242;
   margin-bottom: 0.6em;
+}
+
+.hero h1 {
+  background-image: url(../static/backgroundh1.jpg);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: top;
 }
 
 .hero h2 {
@@ -277,6 +280,52 @@ footer img {
     background-image: url(/static/mobile_bg.png);
     background-size: cover;
   }
+
+  /* HIDDEN NAV TOGGLE-------------------------------- */
+  #hiddenNav {
+    display: none;
+  }
+
+  .noNav {
+    display: none;
+  }
+  
+  .showNav {
+    justify-content: space-between;
+    background-color: #272a31;
+    padding: 1em;
+    z-index: 99;
+    display: flex;
+    position: fixed;
+    width: 90vw;
+    height: 100vh;
+    margin: 0%;
+    opacity: 0.97;
+    min-width: 305px;
+  }
+
+  .showNav ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+  }
+
+  .showNav ul li {
+    padding-top: 2em;
+    width: 12em;
+    border-bottom: 2px solid white;
+    margin: 0%;
+  }
+  
+  .showNav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  #closebtn img {
+    height: 2.5em;
+  }
 }
 
 /* MID RANGE */
@@ -313,6 +362,14 @@ footer img {
     background-size: 110%;
     background-repeat: no-repeat;
     background-position-y: 3.5%;
+  }
+
+  #hiddenNav ul {
+    display: none;
+  }
+
+  #hiddenNav #closebtn_img {
+    display: none;
   }
 
   .topnav {
@@ -407,6 +464,10 @@ footer img {
   .conta a{
     text-decoration: none;
     color: #696e7c;
+  }
+
+  .conta li button a {
+    color: white;
   }
 
   /* HERO SECTION */

@@ -34,13 +34,25 @@
       </div>
       <ul class="conta">
         <li><a href="#about">About</a></li>
-        <li><a href="#program">Program</a></li>
-        <li><a href="#join">Join</li></a>
-        <li><a href="#sponsor">Sponsor</a></li>
-        <li><a href="#news">News</a></li>
-        <li> <button>BIM Campaing</button></li>
+        <li><a href="index.html#program">Program</a></li>
+        <li><a href="https://www.buildingsmart.org/chapter-directory/">Join</li></a>
+        <li><a href="index.html#sponsors">Sponsor</a></li>
+        <li><a href="https://www.buildingsmart.org/resources/latest-news/">News</a></li>
+        <li> <button><a href="https://www.buildingsmart.org/chapter-directory/">BIM Campaing</a></button></li>
       </ul>
     </nav>
+  </div>
+
+  <nav id="hiddenNav">
+    <ul>
+      <li><a href="about.html" onclick="redirect()">About</a></li>
+      <li><a href="#program" onclick="redirect()">Program</a></li>
+      <li><a href="#joinBtn" onclick="redirect()">Join</a></li>
+      <li><a href="#sponsors" onclick="redirect()">Sponsor</a></li>
+      <li><a href="https://www.buildingsmart.org/resources/latest-news/" onclick="redirect()">News</a></li>
+    </ul>
+    <div id="closebtn"><img id="closebtn_img" src="static/icon-cancel.svg" alt="close button icon"></div>
+  </nav>
   </div>
 
   <section id="main" class="container">
@@ -121,6 +133,7 @@
         corrupti, fugiat minima.</p>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>

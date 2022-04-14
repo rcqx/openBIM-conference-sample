@@ -33,19 +33,31 @@
         <h3>Open BIM Global <br> Summit 2022</h3>
       </div>
       <ul class="conta">
-        <li><a href="#about">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#program">Program</a></li>
-        <li><a href="#join">Join</li></a>
-        <li><a href="#sponsor">Sponsor</a></li>
-        <li><a href="#news">News</a></li>
-        <li> <button>BIM Campaing</button></li>
+        <li><a href="#joinBtn">Join</li></a>
+        <li><a href="#sponsors">Sponsor</a></li>
+        <li><a href="https://www.buildingsmart.org/resources/latest-news/">News</a></li>
+        <li> <button><a href="https://www.buildingsmart.org/chapter-directory/">BIM Campaing</a></button></li>
       </ul>
+    </nav>
+
+    <nav id="hiddenNav">
+      <ul>
+        <li><a href="about.html" onclick="redirect()">About</a></li>
+        <li><a href="#program" onclick="redirect()">Program</a></li>
+        <li><a href="#joinBtn" onclick="redirect()">Join</a></li>
+        <li><a href="#sponsors" onclick="redirect()">Sponsor</a></li>
+        <li><a href="https://www.buildingsmart.org/resources/latest-news/" onclick="redirect()">News</a></li>
+      </ul>
+      <div id="closebtn"><img id="closebtn_img" src="static/icon-cancel.svg" alt="close button icon"></div>
     </nav>
   </div>
   <section id="main" class="container">
     <nav class="mobilnav" class="container">
       <i id="listIcon" class="fa-2x fa-solid fa-bars"></i>
     </nav>
+
     <div class="hero">
       <h4 class="lato">"Open BIM tools for everyone!"</h4>
       <h1 class="coco">OPEN BIM GLOBAL DEVELOPERS SUMMIT 2022</h1>
@@ -120,47 +132,48 @@
     <div class="speaker">
       <img class="speakerImg" src="static/speaker3.png" alt="">
       <div class="speakerDescription">
-        <h4>Antonio Gonzalez</h4>
-        <h6>Web developer and one of the creators of IFC.js</h6>
+        <h4>Dorothy Williams</h4>
+        <h6>IFC developer and collaborator at buildingsmart</h6>
         <div class="break2"></div>
-        <p>Creator of IFCjs, an open source effort to decentralize the design and
-          development of BIM models from authorative tools</p>
+        <p>Dorothy is currently in charge of the development of the new and improved IFC schema
+          which is focusing on enhacing interoperability and avoid spaguetti code.
+        </p>
       </div>
     </div>
     <div class="speaker">
       <img class="speakerImg" src="static/speaker4.png" alt="">
       <div class="speakerDescription">
-        <h4>Dimitrie Stefanescu</h4>
-        <h6>Architect and founder of Speckle.</h6>
+        <h4>Marcus Stephenson</h4>
+        <h6>Virtual designer and AI expert</h6>
         <div class="break2"></div>
-        <p>Accidentally gave birth to Speckle while pursuing his PhD at UCL. Speckle put you in charge of your design
-          and construction data. </p>
+        <p>Marcus is an expert on applying AI for building design purposes, from enhanced early design
+          aspects to using real time data from building an feed AI models for retrofitting insight. </p>
       </div>
     </div>
     <div class="speaker">
       <img class="speakerImg" src="static/speaker5.png" alt="">
       <div class="speakerDescription">
-        <h4>Antonio Gonzalez</h4>
-        <h6>Web developer and one of the creators of IFC.js</h6>
+        <h4>Johana Moore</h4>
+        <h6>Leader system integrator at ARUP</h6>
         <div class="break2"></div>
-        <p>Creator of IFCjs, an open source effort to decentralize the design and
-          development of BIM models from authorative tools</p>
+        <p>Johana is the main system integrator at ARUP in london. She will be talking about novel approaches
+          when handling multiple and very large BIM models</p>
       </div>
     </div>
     <div class="speaker">
       <img class="speakerImg" src="static/speaker6.png" alt="">
       <div class="speakerDescription">
-        <h4>Dimitrie Stefanescu</h4>
-        <h6>Architect and founder of Speckle.</h6>
+        <h4>Hirata Motoko</h4>
+        <h6>UCL researcher at Faculty of Built Environment</h6>
         <div class="break2"></div>
-        <p>Accidentally gave birth to Speckle while pursuing his PhD at UCL. Speckle put you in charge of your design
-          and construction data. </p>
+        <p>Hirata will demostrate a new approach to display BIM models in real time. His research focuses on
+          virtualization of physical assets en augmented reality</p>
       </div>
     </div>
     <button id="moreBtn">MORE</button>
   </section>
 
-  <div class="partners">
+  <div id="sponsors" class="partners">
     <h4>Partners</h4>
     <div class="break3"></div>
     <div class="sponsors">
@@ -184,6 +197,7 @@
         corrupti, fugiat minima.</p>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
