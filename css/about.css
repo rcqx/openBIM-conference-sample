@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Cocogoose Pro Regular';
+  font-family: 'cocogoose-pro.regular';
   font-style: normal;
   font-weight: normal;
-  src: url('../custom_font/Cocogoose\ Pro\ Inline\ Trial.woff') format('woff');
+  src: url('../custom_font/cocogoose-pro.regular.ttf') format('ttf');
   }
 
 body {
@@ -20,7 +20,7 @@ h2 {
 
 /* HERO SECTION----------------------------------- */
 .coco {
-  font-family: 'Cocogoose Pro Regular', sans-serif;
+  font-family: 'cocogoose-pro.regular', sans-serif;
 }
 
 .hero {
