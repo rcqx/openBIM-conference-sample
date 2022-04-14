@@ -185,6 +185,7 @@ body {
   height: 3.5em;
   font-size: small;
   border: 1px solid #d3d3d3;
+  order: 1;
 }
 
 #speakers h2 {
@@ -332,6 +333,13 @@ footer img {
 
   #closebtn img {
     height: 2.5em;
+  }
+
+  #speaker2,
+  #speaker3,
+  #speaker4,
+  #speaker5 {
+    display: none;  
   }
 }
 
