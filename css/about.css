@@ -62,12 +62,8 @@ h2 {
 .hero h1 {
   font-size: 1.9em;
   line-height: 1em;
-  color: #ec5242;
   margin-bottom: 0.7em;
   text-align: center;
-}
-
-.hero h1 {
   background-image: url('../static/backgroundh1.jpg');
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -298,13 +294,14 @@ footer {
 }
 
 /* MEDIA QUERIES */
+
 /* MOBIL */
 @media (max-width: 768px) {
   #main {
     background-image: url('../static/mobile_bg.png');
     background-size: cover;
   }
-  
+
   #navWrapper {
     display: none;
   }
@@ -338,7 +335,7 @@ footer {
   .noNav {
     display: none;
   }
-  
+
   .showNav {
     justify-content: space-between;
     background-color: #272a31;
@@ -365,7 +362,7 @@ footer {
     border-bottom: 2px solid white;
     margin: 0%;
   }
-  
+
   .showNav a {
     text-decoration: none;
     font-size: 1.5em;
@@ -378,8 +375,8 @@ footer {
 }
 
 /* MID RANGE */
-@media (max-width: 1040px) {
-  .conta li button {
+@media (max-width: 1059px) {
+  .conta li #aButton {
     display: none;
   }
 
@@ -392,7 +389,6 @@ footer {
 }
 
 @media (max-width: 945px) {
-
   #navLinksWrapper img,
   #navLinksWrapper a {
     display: none;
@@ -400,6 +396,7 @@ footer {
 }
 
 /* DESKTOP */
+
 /* NAVBAR------------------------------------------------------ */
 @media (min-width: 768px) {
   #listIcon {
@@ -408,7 +405,7 @@ footer {
 
   body {
     background-image: url('../static/bgDesktop.png');
-    background-size:contain;
+    background-size: contain;
     background-size: 110%;
     background-repeat: no-repeat;
     background-position-y: 3.5%;
@@ -418,8 +415,26 @@ footer {
     display: none;
   }
 
+  nav ul {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    justify-content: space-between;
+    height: 2em;
+    width: 58%;
+  }
+
   #hiddenNav ul {
     display: none;
+  }
+
+  footer img {
+    width: 4.8%;
+  }
+
+  .logoAbout img {
+    height: 100%;
   }
 
   #hiddenNav img {
@@ -448,7 +463,7 @@ footer {
     align-items: center;
   }
 
-  #navLinksWrapper>* {
+  #navLinksWrapper > * {
     margin-left: 1em;
   }
 
@@ -463,18 +478,7 @@ footer {
     box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.2);
   }
 
-  nav ul {
-    height: 100%;
-    display: flex;
-    margin: 0%;
-    padding: 0%;
-    align-items: center;
-    justify-content: space-between;
-    height: 2em;
-    width: 58%;
-  }
-
-  li button {
+  li #aButton {
     height: 3em;
     width: 8em;
     margin-left: 1em;
@@ -482,6 +486,7 @@ footer {
     background-color: #ec5242;
     color: whitesmoke;
     font-weight: bold;
+    padding: 1em;
   }
 
   nav li {
@@ -507,14 +512,9 @@ footer {
     background-color: white;
   }
 
-  .logoAbout img {
-    height: 100%;
-  }
-
   .logoAbout h3 {
     font-size: 1.2em;
     font-weight: bolder;
-    height: 5em;
     margin: 0%;
     height: 100%;
     display: flex;
@@ -523,171 +523,162 @@ footer {
     align-items: center;
   }
 
-/* HERO--------------------------------------------------- */
-.hero h1 {
+  /* HERO--------------------------------------------------- */
+  .hero h1 {
     font-size: 4.5em;
     width: 75%;
     margin-bottom: 0%;
     margin-bottom: 0.2em;
-}
+  }
 
-.hero .break {
-  margin-bottom: 2em;
-}
+  .hero .break {
+    margin-bottom: 2em;
+  }
 
-.hero h2 {
-  padding-top: 1.5em;
-  font-size: 2em;
-}
+  .hero h2 {
+    padding-top: 1.5em;
+    font-size: 2em;
+  }
 
-.hero h4 {
-  font-size: 3em;
-  margin-top: 1.5em;
-  padding-bottom: 0.1em;
-}
+  .hero h4 {
+    font-size: 3em;
+    margin-top: 1.5em;
+    padding-bottom: 0.1em;
+  }
 
-#heroDescription {
-  width: 75%;
-  font-size: 1.2em;
-  background-color: whitesmoke;
-  border: 5px solid white;
-}
+  #heroDescription {
+    width: 75%;
+    font-size: 1.2em;
+    background-color: whitesmoke;
+    border: 5px solid white;
+  }
 
-.hero p {
-  font-size: 1.5em;
-  color: black;
-  padding-bottom: 6em;
-}
+  footer p {
+    color: #d3d3d3;
+  }
 
-#contact {
-  font-size: small;
-  width: 80%;
-  text-align: center;
-  color: #272a31;
-  margin: 0%;
-  padding: 0%;
-  padding-top: 2em;
-}
+  .hero p {
+    font-size: 1.5em;
+    color: black;
+    padding-bottom: 6em;
+  }
 
-#email {
-  font-size: small;
-  width: 80%;
-  text-align: center;
-  margin-bottom: 1em;
-}
+  #contact {
+    font-size: small;
+    width: 80%;
+    text-align: center;
+    color: #272a31;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 2em;
+  }
 
-#email span {
-  font-weight: bold;
-  text-decoration: underline;
-}
+  #email {
+    font-size: small;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 1em;
+  }
 
-/* ABOUT LOGO------------------------------------ */
-#about {
-  width: 100%;
-  margin: 0;
-  border: 2px solid whitesmoke;
-}
+  #email span {
+    font-weight: bold;
+    text-decoration: underline;
+  }
 
-#about #mobil {
-  display: none;
-}
+  /* ABOUT LOGO------------------------------------ */
+  #about {
+    width: 100%;
+    margin: 0;
+    border: 2px solid whitesmoke;
+  }
 
-#about #desktop {
-  font-size: 2em;
-  margin-top: 1em;
-}
+  #about #mobil {
+    display: none;
+  }
 
-#about #logoTextMobil {
-  display: none;
-}
+  #about #desktop {
+    font-size: 2em;
+    margin-top: 1em;
+  }
 
-#about #logoTextDesktop {
-  font-size: 0.9em;
-  width: 60%;
-}
+  #about #logoTextMobil {
+    display: none;
+  }
 
-.logo {
-  width: 50%;
-  margin-bottom: 4em;
-}
+  #about #logoTextDesktop {
+    font-size: 0.9em;
+    width: 60%;
+  }
 
-/* PAST EVENTS-------------------------------------- */
-#past {
-  background-color: white;
-  padding-bottom: 4em;
-}
+  .logo {
+    width: 50%;
+    margin-bottom: 4em;
+  }
 
-#past h2 {
-  font-size: 1.5em;
-  padding-top: 3em;
-}
+  /* PAST EVENTS-------------------------------------- */
+  #past {
+    background-color: white;
+    padding-bottom: 4em;
+  }
 
-#past p {
-  margin: 0%;
-  padding-bottom: 1.3em;
-}
+  #past h2 {
+    font-size: 1.5em;
+    padding-top: 3em;
+  }
 
-#past #flexDesktop {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5em;
-  margin-top: 3em;
-  margin-bottom: 4em;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 6em;
-}
+  #past p {
+    margin: 0%;
+    padding-bottom: 1.3em;
+  }
 
-#past #london,
-#past #mexicoCity {
-  height: 15em;
-  width: 30em;
-  margin: 0%;
-}
+  #past #flexDesktop {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    margin-top: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 6em;
+  }
 
-#flexDesktop h4 {
-  padding-top: 3em;
-}
+  #past #london,
+  #past #mexicoCity {
+    height: 15em;
+    width: 30em;
+    margin: 0%;
+  }
 
-#partners {
-  display: none;
-}
+  #flexDesktop h4 {
+    padding-top: 3em;
+  }
 
-footer #footerMobil {
-  display: none;
-}
+  #partners {
+    display: none;
+  }
 
-footer {
-  background-color: #272a31;
-}
+  footer #footerMobil {
+    display: none;
+  }
 
-footer p {
-  color: #d3d3d3;
-}
+  footer {
+    background-color: #272a31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
 
-#footerText {
-  width: 50%;
-}
+  #footerText {
+    width: 50%;
+  }
 
-#footerText .desktop {
-  display: flex;
-  width: 100%;
-}
+  #footerText .desktop {
+    display: flex;
+    width: 100%;
+  }
 
-#footerText p {
-  display: none;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4em;
-  padding-bottom: 4em;
-}
-
-footer img {
-  width: 4.8%;
-}
-
+  #footerText p {
+    display: none;
+  }
 }
