@@ -1,4 +1,9 @@
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@font-face {
+  font-family: 'Cocogoose Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../custom_font/Cocogoose\ Pro\ Inline\ Trial.woff') format('woff');
+  }
 
 body {
   font-family: 'Lato', sans-serif;
@@ -12,7 +17,7 @@ body {
 
 /* HERO SECTION----------------------------------- */
 .coco {
-  font-family: 'COCOGOOSE';
+  font-family: 'Cocogoose Pro Regular', sans-serif;
 }
 
 #heroDescription {
