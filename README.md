@@ -1,8 +1,8 @@
 # HTML/CSS & JavaScript capstone project - Conference page 🏅!
 
-Online website for the open BIM global conference. This project followed the design guidelines from 
+Online website for the open BIM global conference. 
 
-![CC Global Summit 2015 design by Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015])
+This project followed the design guidelines from --> [CC Global Summit 2015 design by Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015])
 
 In this 1st capstone project at microverse the main objectives were:
 
@@ -62,6 +62,10 @@ Check the templates on Figma website
 - GitHub: @jr-cast
 - Twitter: @josercastanos
 - LinkedIn: https://www.linkedin.com/in/jr-cast
+
+## Acknowledgements
+
+To [Cindy Shin](https://www.behance.net/adagio07) the [author of the original desing](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
 ## Contributing
 
