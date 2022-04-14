@@ -30,7 +30,7 @@ body {
 }
 
 .hero h1 {
-  background-image: url(../static/backgroundh1.jpg);
+  background-image: url(static/backgroundh1.jpg);
   background-clip: content-box;
   -webkit-background-clip: text;
   color: transparent;
@@ -62,7 +62,7 @@ body {
   background-color: #272a31;
   color: #d3d3d3;
   text-align: center;
-  background-image: url(/static/programbg.png);
+  background-image: url(static/programbg.png);
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
@@ -277,7 +277,7 @@ footer img {
   }
 
   #main {
-    background-image: url(/static/mobile_bg.png);
+    background-image: url(static/mobile_bg.png);
     background-size: cover;
   }
 
@@ -357,7 +357,7 @@ footer img {
   /* NAV DESKTOP--- */
   /* LOGO-----*/
   body {
-    background-image: url(/static/bgDesktop.png);
+    background-image: url(static/bgDesktop.png);
     background-size:contain;
     background-size: 110%;
     background-repeat: no-repeat;

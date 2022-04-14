@@ -61,7 +61,7 @@ h2 {
 }
 
 .hero h1 {
-  background-image: url(../static/backgroundh1.jpg);
+  background-image: url(static/backgroundh1.jpg);
   background-clip: content-box;
   -webkit-background-clip: text;
   color: transparent;
@@ -199,7 +199,7 @@ footer img {
 }
 
 #london {
-  background-image: url(/static/london1.jpg);
+  background-image: url(static/london1.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   height: 12em;
@@ -218,7 +218,7 @@ footer img {
 }
 
 #mexicoCity {
-  background-image: url(/static/mexico1.jpg);
+  background-image: url(static/mexico1.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   height: 12em;
@@ -294,7 +294,7 @@ footer {
 /* MOBIL */
 @media (max-width: 768px) {
   #main {
-    background-image: url(/static/mobile_bg.png);
+    background-image: url(static/mobile_bg.png);
     background-size: cover;
   }
   
@@ -400,7 +400,7 @@ footer {
   }
 
   body {
-    background-image: url(/static/bgDesktop.png);
+    background-image: url(static/bgDesktop.png);
     background-size:contain;
     background-size: 110%;
     background-repeat: no-repeat;
