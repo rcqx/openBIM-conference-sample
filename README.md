@@ -1,6 +1,6 @@
 # HTML/CSS & JavaScript capstone project - Conference page 🏅!
 
-Online website for the open BIM global conference. 
+Online website for the open BIM global conference. Check out the website [HERE](https://jr-cast.github.io/capstone-project-1/);
 
 ![image](https://user-images.githubusercontent.com/58822719/166174363-ef0df950-6a8a-4a1a-9d79-587ef6a8e959.png)
 
@@ -21,9 +21,6 @@ Main objetives of this new project-feature is:
 * Use JavaScript to manipulate DOM elements.
 * Use JavaScript events.
 * Use objects to store and access data.
-
-
-Check out the website [HERE](https://jr-cast.github.io/capstone-project-1/);
 
 ## Built With
 
