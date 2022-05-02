@@ -2,6 +2,8 @@
 
 Online website for the open BIM global conference. 
 
+![image](https://user-images.githubusercontent.com/58822719/166174363-ef0df950-6a8a-4a1a-9d79-587ef6a8e959.png)
+
 This project followed the design guidelines from --> [CC Global Summit 2015 design by Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015])
 
 In this 1st capstone project at microverse the main objectives were:
