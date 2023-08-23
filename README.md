@@ -1,4 +1,4 @@
-# HTML/CSS & JavaScript capstone project - Conference page 🏅!
+# Open BIM Summit 2022 Sample
 
 Online website for the open BIM global conference. Check out the website [HERE](https://jr-cast.github.io/openBIM-conference-sample/index.html);
 
